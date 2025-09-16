@@ -1,8 +1,8 @@
 {
 	"name": "kupidonkhv/captcha",
 	"type": "package",
-	"description": "Laravel 12 Captcha Package",
-	"keywords": ["laravel12 Captcha FORK!"],
+	"description": "Laravel 12 Captcha Package FORK",
+	"keywords": ["laravel 12 Captcha"],
 	"homepage": "https://github.com/kupidonkhv/captcha",
 	"license": "MIT",
 	"authors": [
