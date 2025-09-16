@@ -1,12 +1,11 @@
-# Captcha for Laravel 10/11/12
+# Captcha for Laravel 5/6/7/8/9/10/11/12
 
-[![Build Status](https://travis-ci.org/mewebstudio/captcha.svg?branch=master)](https://travis-ci.org/mewebstudio/captcha) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mewebstudio/captcha/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mewebstudio/captcha/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/mews/captcha/v/stable.svg)](https://packagist.org/packages/mews/captcha)
-[![Latest Unstable Version](https://poser.pugx.org/mews/captcha/v/unstable.svg)](https://packagist.org/packages/mews/captcha)
-[![License](https://poser.pugx.org/mews/captcha/license.svg)](https://packagist.org/packages/mews/captcha)
-[![Total Downloads](https://poser.pugx.org/mews/captcha/downloads.svg)](https://packagist.org/packages/mews/captcha)
+[![Latest Stable Version](https://poser.pugx.org/kupidonkhv/captcha/v/stable.svg)](https://packagist.org/packages/kupidonkhv/captcha)
+[![Latest Unstable Version](https://poser.pugx.org/kupidonkhv/captcha/v/unstable.svg)](https://packagist.org/packages/kupidonkhv/captcha)
+[![License](https://poser.pugx.org/kupidonkhv/captcha/license.svg)](https://packagist.org/packages/kupidonkhv/captcha)
+[![Total Downloads](https://poser.pugx.org/kupidonkhv/captcha/downloads.svg)](https://packagist.org/packages/kupidonkhv/captcha)
 
-A simple [Laravel 5/6/7/8/9/10/11/12](http://www.laravel.com/) service provider for including the [Captcha for Laravel](https://github.com/mewebstudio/captcha).
+A simple [Laravel 5/6/7/8/9/10/11/12](http://www.laravel.com/) service provider for including the Captcha package with full Laravel 12 support.
 
 for Laravel 4 [Captcha for Laravel Laravel 4](https://github.com/mewebstudio/captcha/tree/master-l4)
 
@@ -34,16 +33,13 @@ for Laravel 5 to 12 [Captcha for Laravel Laravel 5 and Newer versions](https://g
 ## Installation
 
 The Captcha Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
-`mews/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 5) in your
-project's `composer.json`.
+`kupidonkhv/captcha` package:
 
 ```json
 {
     "require": {
-        "laravel/framework": "5.0.*",
-        "mews/captcha": "~3.0"
-    },
-    "minimum-stability": "stable"
+        "kupidonkhv/captcha": "^3.5"
+    }
 }
 ```
 
@@ -51,12 +47,12 @@ or
 
 Require this package with composer:
 ```
-composer require mews/captcha
+composer require kupidonkhv/captcha
 ```
 
 Update your packages with ```composer update``` or install with ```composer install```.
 
-In Windows, you'll need to include the GD2 DLL `php_gd2.dll` in php.ini. And you also need include `php_fileinfo.dll` and `php_mbstring.dll` to fit the requirements of `mews/captcha`'s dependencies.
+In Windows, you'll need to include the GD2 DLL `php_gd2.dll` in php.ini. And you also need include `php_fileinfo.dll` and `php_mbstring.dll` to fit the requirements of `kupidonkhv/captcha`'s dependencies.
 
 
 
